@@ -1,1 +1,39 @@
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
+
+title: Hello, world! I'm Ronald Requena
+description: > # this means to ignore newlines until "baseurl:"
+  I am a computer engineer focusing in software development and architect. Always hungry to keep learning.
+  In the last five years, I have been part of the creation of new initiatives and digital business models based on the use of new technologies and cloud. 
+  Providing technical leadership to agile development teams to design, create, maintain and enhance diverse software systems.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "https://ronaldrequena.me/" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Ronald Requena
+author-img: ronald-requena.jpg
+about-author: I am a computer engineer focusing in software development and architect. Always hungry to keep learning. In the last five years, I have been part of the creation of new initiatives and digital business models based on the use of new technologies and cloud. Providing technical leadership to agile development teams to design, create, maintain and enhance diverse software systems.
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: rcronald
+social-linkedin: rcronald
+social-email: rcronald@gmail.com
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
